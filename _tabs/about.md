@@ -1,8 +1,10 @@
 ---
-# the default layout is 'page'
-icon: fas fa-info-circle
-order: 4
+# the default layout is 'page' 기본 레이아웃은 'page'이다 뜻
+icon: fas fa-info-circle #페이지를 나타내는 아이콘을 지정하는 부분
+order: 4  #페이지의 순서를 지정하는 부분입니다. order가 4이므로, 메뉴나 탭 목록에서 4번째 순서로 보이게 됩니다.
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+> 
+보안 엔지니어의 기술 블로그입니다. <br>
+**웹 모의해킹**, **취약점 분석**부터 **시스템 보안 연구**까지, 배우고 경험한 모든 것을 공유합니다.
+
