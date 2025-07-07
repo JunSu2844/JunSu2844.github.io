@@ -2,9 +2,9 @@
   color-scheme: dark;
 
   /* Framework color */
-  --main-bg: rgb(27, 27, 30);
+  --main-bg: rgb(39, 40, 43);
   --mask-bg: rgb(68, 69, 70);
-  --main-border-color: rgb(44, 45, 45);
+  --main-border-color: rgb(211, 211, 211);
 
   /* Common color */
   --text-color: rgb(175, 176, 177);
@@ -20,7 +20,7 @@
   --btn-border-color: #2e2f31;
   --btn-backtotop-color: var(--text-color);
   --btn-backtotop-border-color: #212122;
-  --card-header-bg: #292929;
+  --card-header-bg: #493628;  /* 카테고리 최상위 색상 */
   --checkbox-color: rgb(118, 120, 121);
   --checkbox-checked-color: var(--link-color);
   --img-bg: radial-gradient(circle, rgb(22, 22, 24) 0%, rgb(32, 32, 32) 100%);
@@ -32,16 +32,16 @@
   );
 
   /* Sidebar */
-  --site-title-color: #717070;
-  --site-subtitle-color: #868686;
-  --sidebar-bg: #1e1e1e;
-  --sidebar-border-color: #292929;
-  --sidebar-muted-color: #868686;
-  --sidebar-active-color: rgb(255, 255, 255, 0.95);
-  --sidebar-hover-bg: #262626;
-  --sidebar-btn-bg: #232328;
-  --sidebar-btn-color: #787878;
-  --avatar-border-color: rgb(206, 206, 206, 0.9);
+  --site-title-color: #d3d3d3;   /* 사이드바 최상단에 있는 블로그 제목 */
+  --site-subtitle-color: #d3d3d3;  /* 블로그 제목 아래에 작게 들어가는 부제목 또는 짧은 소개글의 글자색 */
+  --sidebar-bg: #222831;           /* 사이드바 전체의 배경색 */
+  --sidebar-border-color: #393E46;  /* 사이드바와 본문 영역을 구분하는 오른쪽 경계선(테두리)의 색상 */
+  --sidebar-muted-color: #d3d3d3;   /* 사이드바 내에서 덜 중요한 텍스트(예: 저작권 표시, 푸터 글씨 등)의 색상 */
+  --sidebar-active-color: rgb(211, 211, 211);  /* 현재 선택되어 활성화된 페이지의 글자색 */
+  --sidebar-hover-bg: #456882;   /* 마우스를 올렸을 때(hover) 나타나는 배경색 */
+  --sidebar-btn-bg: #232328;      /* 버튼(예: 검색 버튼, SNS 아이콘 등)의 배경색 */
+  --sidebar-btn-color: #787878;    /*  버튼 안에 있는 아이콘이나 글자색 */
+  --avatar-border-color: rgb(206, 206, 206, 0.9);   /* 프로필 사진(아바타)의 테두리 색상 */
 
   /* Topbar */
   --topbar-bg: rgb(27, 27, 30, 0.64);
@@ -65,9 +65,9 @@
   --footnote-target-bg: rgb(63, 81, 181);
   --btn-share-color: #6c757d;
   --btn-share-hover-color: #bfc1ca;
-  --card-bg: #1e1e1e;
-  --card-hovor-bg: #464d51;
-  --card-shadow: rgb(21, 21, 21, 0.72) 0 6px 18px 0,
+  --card-bg: #333232;   /* 카드(card)의 배경색 */
+  --card-hovor-bg: #464d51; /* 카드에 마우스를 올렸을 때 변경되는 배경색 */
+  --card-shadow: rgb(21, 21, 21, 0.72) 0 6px 18px 0,  /* 카드 주변에 생기는 그림자 효과 */
     rgb(137, 135, 135, 0.24) 0 0 0 1px;
   --kbd-wrap-color: #6a6a6a;
   --kbd-text-color: #d3d3d3;
@@ -89,12 +89,12 @@
   --search-tag-bg: #292828;
 
   /* Categories */
-  --categories-border: rgb(64, 66, 69, 0.5);
-  --categories-hover-bg: rgb(73, 75, 76);
-  --categories-icon-hover-color: white;
+  --categories-border: rgb(64, 66, 69, 0.5);   /* 카테고리 목록이나 각 카테고리 항목의 테두리 색상 */
+  --categories-hover-bg: rgb(73, 75, 76);      /* 개별 카테고리 링크에 마우스를 올렸을 때 나타나는 배경색 */
+  --categories-icon-hover-color: white;        /* 카테고리 이름 옆에 아이콘(예: 📁)이 있을 경우, 마우스를 올렸을 때 그 아이콘이 변하는 색상 */
 
   /* Archive */
-  --timeline-node-bg: rgb(150, 152, 156);
+  --timeline-node-bg: rgb(150, 152, 156);   
   --timeline-color: rgb(63, 65, 68);
   --timeline-year-dot-color: var(--timeline-color);
 
