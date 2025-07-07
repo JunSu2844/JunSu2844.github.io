@@ -19,6 +19,13 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
   background: var(--sidebar-bg);
   border-right: 1px solid var(--sidebar-border-color);
 
+  /* 사이드바 배경 이미지 변경 */
+  background: url('/assets/img/cat.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
   /* Hide scrollbar for IE, Edge and Firefox */
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
