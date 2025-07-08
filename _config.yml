@@ -88,6 +88,8 @@ pageviews:
 #     light — Use the light color scheme
 #     dark — Use the dark color scheme
 #
+
+# 테마 색상 고정 하는 부분(미 입력 시 색상 전환 버튼 활성화, 색상 선택 시 전환 버튼 없어짐)  
 theme_mode: dark # [light | dark]
 
 # The CDN endpoint for media resources.
