@@ -1,114 +1,117 @@
 @mixin styles {
   /* Framework color */
-  --main-bg: #F9F7F3;  /* 전체 배경 색상 */
-  --mask-bg: #c1c3c5;  /* 이미지 위에 겹쳐지는 마스크 레이어의 배경색 */
-  --main-border-color: #E9E5E0;  /* 컨텐츠 블록, 카드, 구분선 등 사이트 전반에서 사용되는 주요 테두리(경계선)의 색상 */
+  --main-bg: #F8F9FA;  /* 전체 배경 색상 */
+  --mask-bg: #rgba(248, 249, 250, 0.8);  /* 이미지 위에 겹쳐지는 마스크 레이어의 배경색 */
+  --main-border-color: #DEE2E6;  /* 컨텐츠 블록, 카드, 구분선 등 사이트 전반에서 사용되는 주요 테두리(경계선)의 색상 */
 
   /* Common color */
-  --text-color: #34343c;
-  --text-muted-color: #757575;
-  --text-muted-highlight-color: inherit;
-  --heading-color: #2a2a2a;
-  --label-color: #585858;
-  --blockquote-border-color: #eeeeee;
-  --blockquote-text-color: #757575;
-  --link-color: #0056b2;
-  --link-underline-color: #dee2e6;
-  --button-bg: #ffffff;
-  --btn-border-color: #e9ecef;
-  --btn-backtotop-color: #686868;
-  --btn-backtotop-border-color: #f1f1f1;
-  --checkbox-color: #c5c5c5;
-  --checkbox-checked-color: #07a8f7;
-  --img-bg: radial-gradient(
-    circle,
-    rgb(255, 255, 255) 0%,
-    rgb(239, 239, 239) 100%
-  );
+  --text-color: #212529;
+  --text-muted-color: #6C757D;
+  --text-muted-highlight-color: #495057;
+  --heading-color: #1A1A1A;
+  --label-color: var(--text-color);
+  --blockquote-border-color: #A6E9D5;
+  --blockquote-text-color: #495057;
+  --link-color: #01A27A;
+  --link-underline-color: #01A27A;
+  --button-bg: #FFFFFF;
+  --btn-border-color: #DEE2E6;
+  --btn-backtotop-color: var(--text-color);
+  --btn-backtotop-border-color: #DEE2E6;
+  --checkbox-color: #6C757D;
+  --checkbox-checked-color: var(--link-color);
+  --img-bg: #E9ECEF
   --shimmer-bg: linear-gradient(
-    90deg,
-    rgba(250, 250, 250, 0) 0%,
-    rgba(232, 230, 230, 1) 50%,
-    rgba(250, 250, 250, 0) 100%
-  );
+    90deg, 
+    rgba(255, 255, 255, 0) 0%, 
+    rgba(222, 226, 230, 0.7) 50%, 
+    rgba(255, 255, 255, 0) 100%
+    );
+
 
   /* Sidebar */
-  --site-title-color: #FFFFFF;  /* 사이드바 최상단에 있는 블로그 제목 */
-  --site-subtitle-color: rgba(255, 255, 255, 0.85); /* 블로그 제목 아래에 작게 들어가는 부제목 또는 짧은 소개글의 글자색 */
-  --sidebar-bg: #F5EEDC;          /* 사이드바 전체의 배경색 */
-  --sidebar-border-color: #efefef;  /* 사이드바와 본문 영역을 구분하는 오른쪽 경계선(테두리)의 색상 */
-  --sidebar-muted-color: #FFFFFF;  /* 사이드바 서브 타이틀 밑에 내에 항목별 색상 */
-  --sidebar-active-color: #471396; /* 현재 선택되어 활성화된 페이지의 글자색 */
-  --sidebar-hover-bg: rgb(192, 201, 238);  /* 마우스를 올렸을 때(hover) 나타나는 배경색 */
-  --sidebar-btn-bg: white;   /* 버튼(예: 검색 버튼, SNS 아이콘 등)의 배경색 */
-  --sidebar-btn-color: #4A5568;  /*  버튼 안에 있는 아이콘이나 글자색 */
-  --avatar-border-color: white;  /* 프로필 사진(아바타)의 테두리 색상 */
+  --site-title-color: #1A1A1A;  /* 사이드바 최상단에 있는 블로그 제목 */
+  --site-subtitle-color: #6C757D; /* 블로그 제목 아래에 작게 들어가는 부제목 또는 짧은 소개글의 글자색 */
+  --sidebar-bg: #FFFFFF;          /* 사이드바 전체의 배경색 */
+  --sidebar-border-color: #DEE2E6;  /* 사이드바와 본문 영역을 구분하는 오른쪽 경계선(테두리)의 색상 */
+  --sidebar-muted-color: #6C757D;  /* 사이드바 서브 타이틀 밑에 내에 항목별 색상 */
+  --sidebar-active-color: var(--link-color); /* 현재 선택되어 활성화된 페이지의 글자색 */
+  --sidebar-hover-bg: rgba(1, 162, 122, 0.07);  /* 마우스를 올렸을 때(hover) 나타나는 배경색 */
+  --sidebar-btn-bg: #F8F9FA;   /* 버튼(예: 검색 버튼, SNS 아이콘 등)의 배경색 */
+  --sidebar-btn-color: #6C757D;  /*  버튼 안에 있는 아이콘이나 글자색 */
+  --avatar-border-color: #DEE2E6;  /* 프로필 사진(아바타)의 테두리 색상 */
 
   /* Topbar */
   --topbar-bg: rgb(255, 255, 255, 0.7);
-  --topbar-text-color: rgb(78, 78, 78);
-  --search-border-color: rgb(240, 240, 240);
-  --search-icon-color: #c2c6cc;
-  --input-focus-border-color: #b8b8b8;
+  --topbar-text-color: var(--text-color);
+  --search-border-color: #DEE2E6;
+  --search-icon-color: #6C757D;
+  --input-focus-border-color: var(--link-color);
+
 
   /* Home page */
-  --post-list-text-color: dimgray;
-  --btn-patinator-text-color: #555555;
-  --btn-paginator-hover-color: var(--sidebar-bg);
+  --post-list-text-color: #495057;
+  --btn-patinator-text-color: var(--text-color);
+  --btn-paginator-hover-color: #E9ECEF;
 
   /* Posts */
-  --toc-highlight: #3182CE;
-  --toc-popup-border-color: lightgray;
-  --btn-share-color: gray;
-  --btn-share-hover-color: #0d6efd;
-  --card-bg: white;  /* 카드(card)의 배경색 */
-  --card-hovor-bg: #F1EEEA; /* 카드에 마우스를 올렸을 때 변경되는 배경색 */
-  --card-shadow: rgb(104, 104, 104, 0.05) 0 2px 6px 0,
-    rgba(211, 209, 209, 0.15) 0 0 0 1px;
-  --footnote-target-bg: lightcyan;
-  --tb-odd-bg: #fbfcfd;
-  --tb-border-color: #eaeaea;
-  --dash-color: silver;
-  --kbd-wrap-color: #bdbdbd;
-  --kbd-text-color: var(--text-color);
-  --kbd-bg-color: white;
-  --prompt-text-color: rgb(46, 46, 46, 0.77);
-  --prompt-tip-bg: rgb(123, 247, 144, 0.2);
-  --prompt-tip-icon-color: #03b303;
-  --prompt-info-bg: rgba(93, 117, 153, 0.1);
-  --prompt-info-icon-color: #0070cb;
-  --prompt-warning-bg: rgb(255, 243, 205);
-  --prompt-warning-icon-color: #ef9c03;
-  --prompt-danger-bg: rgb(248, 215, 218, 0.56);
-  --prompt-danger-icon-color: #df3c30;
+  --toc-highlight: var(--link-color);
+  --toc-popup-border-color: #DEE2E6;
+  --btn-share-color: #6C757D;
+  --btn-share-hover-color: var(--link-color);
+  --card-bg: #FFFFFF;  /* 카드(card)의 배경색 */
+  --card-header-bg: #F8F9FA;
+  --card-hovor-bg: #FFFFFF; /* 카드에 마우스를 올렸을 때 변경되는 배경색 */
+  --card-shadow: rgba(0, 0, 0, 0.05) 0 4px 12px 0;
+  --footnote-target-bg: rgba(1, 162, 122, 0.15);
+  --tb-odd-bg: #F8F9FA;
+  --tb-even-bg: #FFFFFF;
+  --tb-border-color: #E9ECEF;
+  --dash-color: #DEE2E6;
+  --kbd-wrap-color: #6C757D;
+  --kbd-text-color: #212529;
+  --kbd-bg-color: #E9ECEF;
+
+    /* --- Prompts (알림 메시지) --- */
+  --prompt-text-color: #212529;
+  --prompt-tip-bg: #E6F6F2;
+  --prompt-tip-icon-color: #01A27A;
+  --prompt-info-bg: #E7F1FC;
+  --prompt-info-icon-color: #3B82F6;
+  --prompt-warning-bg: #FFF8E7;
+  --prompt-warning-icon-color: #D97706;
+  --prompt-danger-bg: #FEF2F2;
+  --prompt-danger-icon-color: #EF4444;
 
   /* Tags */
-  --tag-border: #dee2e6;
-  --tag-shadow: var(--btn-border-color);
-  --tag-hover: rgb(222, 226, 230);
-  --search-tag-bg: #f8f9fa;
+  --tag-border: #DEE2E6;
+  --tag-shadow: none;
+  --tag-hover: rgba(1, 162, 122, 0.1);
+  --search-tag-bg: #E9ECEF;
 
   /* Categories */
-  --categories-border: rgba(0, 0, 0, 0.125);
-  --categories-hover-bg: var(--btn-border-color);
-  --categories-icon-hover-color: darkslategray;
+  --categories-border: #DEE2E6;
+  --categories-hover-bg: #F8F9FA;
+  --categories-icon-hover-color: var(--text-color);
 
   /* Archive */
-  --timeline-color: rgba(0, 0, 0, 0.075);
-  --timeline-node-bg: #c2c6cc;
-  --timeline-year-dot-color: #ffffff;
+  --timeline-color: #DEE2E6;
+  --timeline-node-bg: #CED4DA;
+  --timeline-year-dot-color: var(--timeline-node-bg);
 
   /* --- Custom code light mode colors --- */
-  --language-border-color: #DCD7D1;  /* 코드 블록 상단에 표시되는 프로그래밍 언어 이름(예: python)의 테두리 색상 */
-  --highlight-bg-color: #F4F1ED;  /* 코드 블록 전체의 배경색 */
-  --highlighter-rouge-color: #4B443D;  /* 문법 강조(Syntax Highlighting)가 적용된 코드의 기본 글자색 */
-  --highlight-lineno-color: #A9A199;  /* 줄 번호(line number)의 색상 */
-  --inline-code-bg: rgba(75, 68, 61, 0.07);  /* 단 내에 짧게 들어가는 인라인(inline) 코드의 배경색 */
-  --code-color: #4B443D;  /* 일반 텍스트 코드의 색상(문법 강조가 적용되지 않거나, 인라인 코드의 글자색으로 사용됩니다.) */
-  --code-header-text-color: #8B8177;  /* 코드 블록 상단 헤더(header) 영역의 주 텍스트 (예: 파일명) 색상*/
-  --code-header-muted-color: #DCD7D1;  /* 코드 블록 헤더의 보조 텍스트나 구분선 색상 */
-  --code-header-icon-color: #8B8177;   /* 코드 블록 헤더에 있는 아이콘 (예: 복사 아이콘)의 색상 */
-  --clipboard-checked-color: #5A9C5A;  /* 코드를 클립보드로 복사' 버튼을 눌렀을 때, 복사가 완료되었음을 알려주기 위해 아이콘이 잠시 바뀌는 성공(초록색) 색상 */ 
+  --language-border-color: #DEE2E6;  /* 코드 블록 상단에 표시되는 프로그래밍 언어 이름(예: python)의 테두리 색상 */
+  --highlight-bg-color: #F8F9FA;  /* 코드 블록 전체의 배경색 */
+  --highlighter-rouge-color: #212529;  /* 문법 강조(Syntax Highlighting)가 적용된 코드의 기본 글자색 */
+  --highlight-lineno-color: #ADB5BD;  /* 줄 번호(line number)의 색상 */
+  --inline-code-bg: rgba(108, 117, 125, 0.1);  /* 단 내에 짧게 들어가는 인라인(inline) 코드의 배경색 */
+  --code-color: #212529;  /* 일반 텍스트 코드의 색상(문법 강조가 적용되지 않거나, 인라인 코드의 글자색으로 사용됩니다.) */
+  --code-header-text-color: #495057;  /* 코드 블록 상단 헤더(header) 영역의 주 텍스트 (예: 파일명) 색상*/
+  --code-header-muted-color: #ADB5BD;  /* 코드 블록 헤더의 보조 텍스트나 구분선 색상 */
+  --code-header-icon-color: #6C757D;   /* 코드 블록 헤더에 있는 아이콘 (예: 복사 아이콘)의 색상 */
+  --clipboard-checked-color: var(--link-color);  /* 코드를 클립보드로 복사' 버튼을 눌렀을 때, 복사가 완료되었음을 알려주기 위해 아이콘이 잠시 바뀌는 성공(초록색) 색상 */ 
+  --filepath-text-color: #495057;
+
 
   [class^='prompt-'] {
     --link-underline-color: rgb(219, 216, 216);
