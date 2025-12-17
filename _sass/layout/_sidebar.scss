@@ -254,6 +254,43 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
       }
     }
   } /* .sidebar-bottom */
+
+  .site-title {
+    font-weight: 700;
+    padding-left: 0.2rem;
+    font-size: 1.75rem;
+    line-height: 1.2;
+    letter-spacing: 0.25px;
+    color: rgba(134, 133, 133, 0.99);
+    margin-top: 1.25rem;
+
+    a {
+      @extend %clickable-transition;
+      @extend %sidebar-link-hover;
+    }
+  }
+
+  /* 여기는 _config.yml에 추가한 subtitle이랑 subdescription 간격 설정 scss */
+  .site-subtitle {
+    font-size: 95%;
+    color: var(--sidebar-muted-color);
+    word-spacing: 1px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .site-subdescription {
+    margin-top: 0.5rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #A9B4C2;
+
+  }
+
 } /* #sidebar */
 
 [#{$sidebar-display}] {

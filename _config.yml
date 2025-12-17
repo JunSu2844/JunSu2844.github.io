@@ -17,9 +17,13 @@ timezone:
 
 
 
-title: "HRZN" # the main title
+title: "HRZN | Tech Blog" # the main title
 
-tagline: "Offensive Security & Vulnerability Research" # it will display as the subtitle
+sidebar_title: "HRZN"
+
+tagline: "Offensive Security Tech Blog" # it will display as the subtitle
+
+subdescription: "오펜시브 시큐리티를 학습하며, 습득한 기술과 경험을 기록하고 공유하는 기술 블로그"
 
 description: >- # used by seo meta and the atom feed
  "Technical notes on Web Hacking and System Exploitation. Towards Red Teaming."
