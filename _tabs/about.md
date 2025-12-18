@@ -96,7 +96,6 @@ order: 4
 | **Email** | [horizon9144@gmail.com](mailto:horizon9144@gmail.com) |
 | **GitHub** | [![GitHub](https://img.shields.io/badge/GitHub-junsu2844-181717?style=flat-square&logo=github)](https://github.com/junsu2844) |
 
-
 <br>
 <br>
 
