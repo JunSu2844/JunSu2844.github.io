@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Blind XSS 란?"
+title:  "[Web] Blind XSS: 개념 이해와 주요 공격 페이로드 분석"
 date:   2025-07-10 21:03:00 +0900
 categories: [Security]
 tags: [web, xss, blind xss, 블라인드 xss]
 ---
 
 
-# Blind XSS 란?
+# Blind XSS: 개념 이해와 주요 공격 페이로드 분석
 
 ## 1. 블라인드 XSS(Blind XSS)란?
 
