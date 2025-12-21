@@ -1,11 +1,8 @@
 ---
 layout: page
 title: About
-# the default layout is 'page' 기본 레이아웃은 'page'이다 뜻
-icon: fas fa-info-circle #페이지를 나타내는 아이콘을 지정하는 부분
-order: 4  
-# 페이지의 순서를 지정하는 부분입니다. order가 4이므로, 
-# 메뉴나 탭 목록에서 4번째 순서로 보이게 됩니다.
+icon: fas fa-info-circle
+order: 4
 ---
 
 ### 🚩 HRZN | Beyond the Limit
@@ -24,7 +21,7 @@ order: 4
 
 ---
 
-### 🛠 Skills & Interests
+## 🛠 Skills & Interests
 
 저의 주요 연구 분야와 기술 스택입니다.
 
@@ -39,17 +36,22 @@ order: 4
 
 ---
 
-### 💼 Career
+## 💼 Career
 
-작성 예정...
+* **Company Name** (YYYY.MM ~ Present)
+  * **Role:** Security Consultant / Penetration Tester
+  * **Description:** 웹/모바일 애플리케이션 취약점 진단 및 인프라 보안 진단 수행
 
 <br>
 
 ---
 
-### 💻 Projects
+## 💻 Projects
 
-작성 예정...
+* **Project Name** (YYYY.MM ~ YYYY.MM)
+  * **Description:** 프로젝트에 대한 간단한 설명 (예: 악성코드 분석 자동화 도구 개발)
+  * **Tech Stack:** Python, Flask, Docker
+  * **Link:** [GitHub Repository](https://github.com/...)
 
 <br>
 
@@ -57,37 +59,44 @@ order: 4
 
 ---
 
-### 🎓 Education & Training
+## 🎓 Training
 
-**Training**
 * **Security Academy 5th** (2025.02 ~ 2025.06)
-  * 기업 주도형 실무 프로젝트 및 취약점 진단 트랙 수료
+  * 취약점 진단분석 트랙 수료
 * **Best of the Best (BoB) 10기** (2021)
   * Digital Forensics 트랙 수료
 
 <br>
 
-**Education**
-* **Korea National Open University** (Computer Science, 재학)
-  * GPA 4.2/4.5
-* **Academic Credit Bank System** (Computer Engineering, 학사)
-  * GPA 4.4/4.5
-
-<br>
+<!-- 주석 시작
 
 ---
 
-### 🏆 Honors & Awards
+## 🏆 Achievements & CVE
 
-* **2017.04** | 청년정책 및 사업 아이템 공모대회 **우수상**
-* **2016.12** | 창업교과 기술창업 아이디어 공모전 **우수상**
-* **2016.11** | 산학협력공동교육캠프 **동상**
+### CTF & Awards
+
+| Date | Event / Description |
+| :--- | :--- |
+| **202X.XX** | 대회명(CTF Name) **본선 진출 / 수상 내역** |
+| **202X.XX** | 버그바운티 플랫폼(Bug Bounty Platform) **Hall of Fame** |
 
 <br>
 
+### CVE
+
+| CVE ID | Vulnerability Description |
+| :--- | :--- |
+| **CVE-202X-XXXX** | 취약점 대상 및 설명 (Description of the vulnerability) |
+| **CVE-202X-XXXX** | 취약점 대상 및 설명 |
+
+<br>
+
+주석 끝 -->
+
 ---
 
-### 📬 Contact
+## 📬 Contact
 
 기술적인 교류와 피드백은 언제나 환영합니다.
 
@@ -95,6 +104,7 @@ order: 4
 |:---:|:---|
 | **Email** | [horizon9144@gmail.com](mailto:horizon9144@gmail.com) |
 | **GitHub** | [![GitHub](https://img.shields.io/badge/GitHub-junsu2844-181717?style=flat-square&logo=github)](https://github.com/junsu2844) |
+| **LinkedIn** | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Junsu_Bok-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/junsu-bok-600219134/) |
 
 <br>
 <br>
